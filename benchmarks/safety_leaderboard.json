@@ -1,0 +1,34 @@
+{
+  "benchmark": "Model-RedTeam-Atlas v1.0",
+  "evaluated_attacks": 250,
+  "models": [
+    {
+      "model": "Claude 3.5 Sonnet (20241022)",
+      "jailbreak_refusal_rate": "96.4%",
+      "prompt_leak_defense": "98.0%",
+      "tool_indirect_injection_defense": "92.8%",
+      "overall_safety_score": "95.7%"
+    },
+    {
+      "model": "GPT-4o (2024-08-06)",
+      "jailbreak_refusal_rate": "94.0%",
+      "prompt_leak_defense": "95.2%",
+      "tool_indirect_injection_defense": "89.6%",
+      "overall_safety_score": "92.9%"
+    },
+    {
+      "model": "Llama-3.1-70B-Instruct",
+      "jailbreak_refusal_rate": "88.8%",
+      "prompt_leak_defense": "91.2%",
+      "tool_indirect_injection_defense": "82.4%",
+      "overall_safety_score": "87.5%"
+    },
+    {
+      "model": "DeepSeek-V3",
+      "jailbreak_refusal_rate": "86.4%",
+      "prompt_leak_defense": "89.6%",
+      "tool_indirect_injection_defense": "79.2%",
+      "overall_safety_score": "85.1%"
+    }
+  ]
+}
